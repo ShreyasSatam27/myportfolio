@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shreyas portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- AOS CSS -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navbar  -->
+
+    <div class="navbar" >
+     <a href="#Home" style="text-decoration: none;" ><div class="logo">Shreyas<span><i class="fa-solid fa-code"></i></span></div></a>
+      <ul id="menus">
+        <li id="menuicon"><a href="#Home">Home</a></li>
+        <li id="menuicon1"><a href="#skill">Skills</a></li>
+        <li id="menuicon2"><a href="#projects">Project</a></li>
+        <li id="menuicon3"><a href="#contact">Contact Me</a></li>
+      </ul>
+      <i id="open" class="fa-solid fa-bars" onclick="openmenu()"></i>
+      <i id="close" class="fa-solid fa-xmark" onclick="closemenu()" ></i>
+    </div>
+
+    <!-- mainsection includes about me  -->
+
+    <div class="mainsection" id="Home" data-aos="flip-right">
+      <div class="myself">
+        <h1>
+          I'M Shreyas Satam <br />
+          <span id="element"></span>
+        </h1>
+        <p>
+          i am a passionate and motivated BCA graduate with a strong foundation
+          in web devlopment,UI/UX Desingner,and full stack web design.
+          continuously improve my skills,and grow within a professional software
+          devlopment environment.
+        </p>
+        <a href="assets/shreyas resume.pdf" target="_blank">
+          <button>Resume</button></a
+        >
+      </div>
+
+      <div class="devpic">
+        <img src="/assets/pic.svg" alt="" />
+
+        <!-- <spline-viewer url="https://prod.spline.design/ou5vcFjKujTsS-mL/scene.splinecode"></spline-viewer> -->
+      </div>
+    </div>
+
+    <!-- my skill section -->
+
+    <div class="skillsection" id="skill" data-aos="fade-up">
+      <div class="skillsheading"><h1>MY SKILLS</h1></div>
+
+      <div class="skillbox">
+        <div class="skill1" data-aos="flip-left">
+          <img src="assets/html-5.png" height="40px" />
+
+          <div class="language">
+            <h3>HTML</h3>
+            <p>Layout Building</p>
+          </div>
+        </div>
+        <div class="skill1" data-aos="flip-left">
+          <img src="assets/css-3.png" height="40px" />
+
+          <div class="language">
+            <h3>CSS</h3>
+            <p>Layout Building</p>
+          </div>
+        </div>
+        <div class="skill1" data-aos="flip-left">
+          <img src="assets/js.png" height="40px" />
+
+          <div class="language">
+            <h3>JAVASCRIPT</h3>
+            <p>Layout Building</p>
+          </div>
+        </div>
+        <div class="skill1"data-aos="flip-left">
+          <img
+            src="assets/tailwind-css-logo-png_seeklogo-354675.png"
+            height="40px"
+          />
+
+          <div class="language">
+            <h3>TAILWIND CSS</h3>
+            <p>Layout Building</p>
+          </div>
+        </div>
+        <div class="skill1"data-aos="flip-left">
+          <img src="assets/firebase_icon.png" height="40px" />
+
+          <div class="language">
+            <h3>FIREBASE</h3>
+            <p>Layout Building</p>
+          </div>
+        </div>
+        <div class="skill1"data-aos="flip-left">
+          <img src="assets/wordpress.png" height="40px" />
+
+          <div class="language">
+            <h3>WORDPRESS</h3>
+            <p>Layout Building</p>
+          </div>
+        </div>
+        <div class="skill1"data-aos="flip-left">
+          <img src="assets/figma.png" height="40px" />
+
+          <div class="language">
+            <h3>FIGMA</h3>
+            <p>Layout Building</p>
+          </div>
+        </div>
+        <div class="skill1"data-aos="flip-left">
+          <img src="assets/bootstrap.png" height="40px" />
+
+          <div class="language">
+            <h3>BOOTSTRAP</h3>
+            <p>Layout Building</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- my project section -->
+
+    <div class="myprojectsection" id="projects" data-aos="fade-up">
+      <div class="projects"><h1>MY PROJECTS</h1></div>
+
+      <div class="allprojects">
+        <div class="projectbox" data-aos="zoom-in">
+          <img src="/assets/laptoppic1.jpg" />
+
+          <div class="projectinfo">
+            <h3>Music listeing platform</h3>
+            <p>
+              This platform provide free uninturupted songs play without any
+              adds
+            </p>
+            <a
+              href="https://github.com/ShreyasSatam27/musify-final"
+              target="_blank"
+              ><i
+                style="color: rgb(231, 196, 0)"
+                class="fa-solid fa-up-right-from-square"
+              ></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="projectbox" data-aos="zoom-in">
+          <img src="/assets/mobilepic2.jpg" />
+          <div class="projectinfo">
+            <h3>UltraEdit Website clone</h3>
+            <p>
+            i create an ultraedit ui/ux clone using html css and javascript
+            </p>
+            <a
+              href="https://shreyassatam27.github.io/ultra-edits/"
+              target="_blank"
+              ><i
+                style="color: rgb(231, 196, 0)"
+                class="fa-solid fa-up-right-from-square"
+              ></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="projectbox" data-aos="zoom-in">
+          <img src="/assets/laptoppic2.jpg" />
+          <div class="projectinfo">
+            <h3>Music listeing platform</h3>
+            <p>
+              This platform provide free uninturupted songs play without any
+              adds
+            </p>
+            <a
+              href="https://github.com/ShreyasSatam27/musify-final"
+              target="_blank"
+              ><i
+                style="color: rgb(231, 196, 0)"
+                class="fa-solid fa-up-right-from-square"
+              ></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="projectbox" data-aos="zoom-in">
+          <img src="/assets/mobilepic.jpg" />
+          <div class="projectinfo">
+            <h3>Music listeing platform</h3>
+            <p>
+              This platform provide free uninturupted songs play without any
+              adds
+            </p>
+            <a
+              href="https://github.com/ShreyasSatam27/musify-final"
+              target="_blank"
+              ><i
+                style="color: rgb(231, 196, 0)"
+                class="fa-solid fa-up-right-from-square"
+              ></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- contact section -->
+
+    <div class="contactsection" id="contact" data-aos="fade-up">
+      <div class="contactheading"><h1>Connect With Me</h1></div>
+
+      <div class="mycontactinfo">
+        <div class="myinfo">
+          <h2>Contact Information</h2>
+
+          <div class="info">
+
+            <div class="links">
+              <i class="fa-solid fa-at"></i>
+
+              <div class="email">
+                <h4>Email</h4>
+                <a href=""><p>satamshreyas27@gmail.com</p></a>
+              </div>
+            </div>
+
+            <div class="links">
+
+              <i class="fa-solid fa-phone"></i>
+
+              <div class="email">
+                <h4>Phone</h4>
+                <p>+91 9359075622</p>
+              </div>
+            </div>
+
+            <div class="links">
+              <i class="fa-solid fa-thumbtack"></i>
+
+              <div class="email">
+                <h4>Location</h4>
+               <p>Vasai (W), Maharashtra, India</p>
+              </div>
+            </div>
+
+            <div class="links">
+              <i class="fa-brands fa-github-alt"></i>
+
+              <div class="email">
+                <h4>GitHub</h4>
+               <a href="https://github.com/shreyassatam27" target="_blank"> <p>shreyassatam27</p></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contactme">
+
+        <form class="contactform" action="https://api.web3forms.com/submit" method="POST">
+
+    <input type="hidden" name="access_key" value="e38353b1-f3a3-4cb5-8efd-410a10b9de50">
+
+       Name <input type="text" placeholder="Name" name="name" required>
+       Email <input type="email" name="email" placeholder="Email" required>
+       Message<textarea name="message" id="" placeholder="Type message here" required ></textarea>
+
+
+       <button>Send Message</button>
+       </form>
+
+
+
+
+        </div>
+
+      </div>
+    </div>
+
+    <!-- footer section -->
+
+    <div class="footer">
+      <footer>
+        <h3>ShreyasDEV &copy; 2025 ✌️</h3>
+        <p>|| All Rights Reserve!</p>
+      </footer>
+    </div>
+
+
+<!-- AOS JS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    offset: 120,
+    duration: 1000,
+    easing: 'ease-in-out',
+    once: true,
+  });
+</script>
+
+<script type="module" src="https://unpkg.com/@splinetool/viewer@1.10.14/build/spline-viewer.js"></script>
+
+
+
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
